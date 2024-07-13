@@ -17,8 +17,6 @@
     background: linear-gradient(90deg, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(2, 0, 36, 1) 100%, rgba(5, 4, 75, 1) 100%);
 }
 .box{
-    display: flex;
-    justify-content: center;
     width: 500px;
     height: 100vh;
     background-color: #fff;
@@ -37,5 +35,17 @@ input{
     outline: none;
 }
 .input-area{
-    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
